@@ -8,21 +8,15 @@ Analysis
 * 
 
 
-	
-
-
-
-
 
 
 ```python
-Pyber Ride Sharing
+# Pyber Ride Sharing
 # Dependencies
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import os
-import io
 import seaborn as sns
 
 # Read in city data
@@ -201,11 +195,14 @@ ax.set_facecolor('lightgray')
 ax.tick_params(axis=u'both', which=u'both',length=0) # hide tick marks still show lables
 ax.xaxis.set_ticks(np.arange(0, 67, 5)) # set x axis's tick mark increment to 5 show last lable 65
 sns.despine(left=True, bottom=True, right=True) # remove border around chart 
-
 plt.show()
 ```
- ! [Alt text] (scatter.png)
- 
+
+
+![png](output_1_0.png)
+
+
+
 ```python
 # PIE CHART: % of Total Fares by City Type
 # Sum up total fares
@@ -328,6 +325,5 @@ plt.show()
 
 
 ![png](output_4_0.png)
-
 
 
