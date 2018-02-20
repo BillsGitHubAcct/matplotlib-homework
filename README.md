@@ -3,11 +3,14 @@
 Analysis
 
 * Observed trend 1
+The sparser the population (rural < suburban < urban) the greater the average fare was per ride. 
 
 
-* 
+* Observed trend 2
+The greater the number of rides in a region (urban > suburban > rural) then also the greater number of drivers and the lower the average fares (with the exception of a few outliers).
 
-
+* Observed trend 3
+Urban drivers dominate all categories for ride shares typically having shorter distances per ride but more than make up for it with the number of rides given.
 
 
 ```python
